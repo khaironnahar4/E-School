@@ -1,0 +1,314 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .my_nav img{
+        width: 150px;
+    }
+    .my-nav ul li{
+        margin: 5px 0;
+    }
+    .my-nav ul li a{
+        margin: 0;
+    }
+    /* banner */
+    #banner {
+        padding: 0 0 10px;
+    }
+    /* banner image */
+    .banner-image {
+        display: flex;
+        justify-content: center;
+    }
+    .banner-image img{
+        width: 300px;
+    }
+    /* banner text */
+    .bnr-text {
+        text-align: center;
+    }
+    .bnr-text h1 {
+        font-size: 30px;
+        margin: 12px 0;
+    }
+    .bnr-text h3 {
+        padding: 0 18%;
+    }
+    .get-start {
+        margin-top: 15px;
+    }
+     /* books */
+     #books {
+        padding: 25px 30px;
+    }
+    .book-img img {
+        width: 80px;
+        height: 84px;
+    }
+    .book {
+        padding: 15px 20px;
+    }
+    .book h2 {
+        margin: 20px 0 8px;
+        font-size: 20px;
+    }
+    /* online courses */
+    #online-courses {
+        padding: 10px 0 20px;
+    }
+    .onc {
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    .onc-text {
+        padding: 20px 15%;
+    }
+    .onc-text h2 {
+        font-size: 18px;
+    }
+    .onc-text h3 {
+        font-size: 16px;
+    }
+    .buy-course {
+        padding: 5px 20px;
+    }
+    .bi-people {
+        padding-left: 2px;
+    }
+    .bi {
+        font-size: 18px;
+    }
+
+    /* testimonial */
+    #testimonial {
+        padding: 0 0 20px;
+    }
+    #testimonial h1 {
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+    .client-img {
+        margin: 0 auto;
+    }
+    .client-review p {
+        text-align: center;
+        font-size: 16px;
+        padding: 15px 15px 0;
+    }
+    /* footer */
+    #footer {
+        margin-top: 0px;
+        padding: 30px 0 20px;
+    }
+    .footer_para{
+        margin: 10px 5%;
+    }
+    .footer-text{
+        margin: 10px 0;
+    }
+    .footer-text p {
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .col {
+        padding: 0 5px;
+    }
+     /* copyright */
+    footer{
+        padding: 0 0 5px 0;
+        font-size: 14px;
+    }
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .my_nav img{
+        width: 180px;
+    }
+    .my-nav ul li{
+        margin: 5px 0;
+    }
+    .my-nav ul li a{
+        margin: 0;
+    }
+    /* banner */
+    #banner {
+        padding: 10px 0;
+    }
+    /* banner image */
+    .banner-image {
+        display: flex;
+        justify-content: center;
+    }
+    .banner-image img{
+        width: 400px;
+    }
+    /* banner text */
+    .bnr-text {
+        text-align: center;
+    }
+    .bnr-text h1 {
+        font-size: 35px;
+        margin: 15px 0;
+    }
+    .bnr-text h3 {
+        padding: 0 18%;
+    }
+    .get-start {
+        margin-top: 15px;
+    }
+    /* books */
+    #books {
+        padding: 25px 30px;
+    }
+    .book-img img {
+        width: 80px;
+        height: 92px;
+    }
+    .book {
+        padding: 15px 20px;
+    }
+    .book h2 {
+        margin: 20px 0 8px;
+        font-size: 22px;
+    }
+    /* online courses */
+    #online-courses {
+        padding: 10px 0 30px;
+    }
+    .onc {
+        margin-bottom: 15px;
+    }
+    .onc-text {
+        padding: 30px 15%;
+    }
+    /* testimonial */
+    #testimonial {
+        padding: 10px 0px 30px;
+    }
+    #testimonial h1 {
+        padding-bottom: 20px;
+    }
+    .client-img {
+        margin: 0 auto;
+    }
+    .client-review p {
+        text-align: center;
+        padding: 30px 30px 0;
+    }
+    /* footer */
+    #footer {
+        margin-top: 0px;
+        padding: 30px 0 20px;
+    }
+    .footer_para{
+        margin: 10px 10%;
+    }
+    .footer-text{
+        margin: 10px 0;
+    }
+    .footer-text p {
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+     /* copyright */
+    footer{
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .my-nav ul li{
+        margin: 7px 0;
+    }
+    .my-nav ul li a{
+        margin: 0;
+        padding: 4px 7px;
+    }
+    /* banner */
+    #banner {
+        padding: 30px 0;
+    }
+    /* banner image */
+    .banner-image {
+        display: flex;
+        justify-content: center;
+    }
+    /* banner text */
+    .bnr-text {
+        text-align: center;
+    }
+    .bnr-text h1 {
+        font-size: 40px;
+    }
+   .bnr-text h3 {
+        padding: 0 25%;
+    }
+    .get-start {
+        margin-top: 25px;
+    }
+    /* books */
+    #books {
+        padding: 60px 0 30px;
+    }
+    /* online courses */
+    #online-courses {
+        padding: 30px 0 30px;
+    }
+    .onc {
+        margin-bottom: 40px;
+    }
+    .onc-text {
+        padding: 30px 15%;
+    }
+    /* testimonial */
+    #testimonial {
+        padding: 30px 0px;
+    }
+    #testimonial h1 {
+        padding-bottom: 30px;
+    }
+    .client-img {
+        margin: 0 auto;
+    }
+    .client-review p {
+        text-align: center;
+    }
+    /* footer */
+    #footer {
+        margin-top: 0px;
+        padding: 40px 0 30px;
+    }
+    .footer-text h3 {
+        font-size: 14px;
+    }
+    /* copyright */
+    footer{
+        padding: 10px 0;
+    }
+    
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .banner-image img{
+        width: 450px;
+    }
+    #online-courses, #books, #testimonial  {
+        padding: 65px 0 50px;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+}
+
+/* // Extra Extra large devices (extra large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}

@@ -1,0 +1,240 @@
+body {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #6C6B6B;   
+}
+/* navbar start */
+.my_nav{
+    background-color: #F0FFF0;
+}
+
+.my-nav ul li{
+    text-align: center;
+    display: flex;
+    align-self: end;
+}
+.my-nav ul li a{
+    font-size: 16px !important;
+    color: #6C6B6B !important;
+    margin: 0 15px;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 0.375rem;
+    transition: 0.8s;
+}
+.my-nav ul li a:hover{
+    color: #2b2b2b !important;
+    border-color: #21B573;
+}
+/* sign in button */
+.sign-in {
+    font-size: 16px !important;
+    font-family: 'Roboto', sans-serif;
+    color: #ececec !important;
+    background-color: #21B573;
+    margin-left: 15px;
+    transition: 0.5s;
+}
+.sign-in:hover{
+    color: #fff !important;
+    background-color: #21B573;
+}
+/* navbar end */
+
+/* banner start */
+#banner{
+    background-color: #F0FFF0;
+    padding: 60px 0;
+}
+.bnr-text {
+    padding-top: 40px;
+}
+.bnr-text h2{
+    font-size: 16px;
+    color: #413960;
+}
+.bnr-text h1{
+    color: #413960;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 25px 0;
+}
+.bnr-text h3{
+    font-size: 16px;
+    color: #413960;
+    padding-right: 25%;
+}
+.get-start{
+    font-size: 16px !important;
+    font-family: 'Roboto', sans-serif !important;
+    color: #ececec !important;
+    background-color: #21B573;
+    margin-top: 40px;
+    border: 3px solid #21B573;
+    transition: 0.5s;
+}
+.get-start:hover{
+    color: #fff !important;
+    background-color: #21B573;
+    box-shadow: 0 3px 5px 0 rgba(43, 43, 43, 0.5) !important;
+    border-color: #21B573;
+}
+.btn:focus{
+    background-color: #21B573;
+    color: #ececec;
+}
+/* banner image */
+.banner-image{
+    width: 100%;
+}
+/* banner end */
+
+
+/* books start */
+#books {
+    padding: 140px 0 60px;
+}
+/* book-1 */
+.book{
+    text-align: center;
+    padding: 30px 20px;
+}
+.book:hover {
+    box-shadow: 0 3px 5px 0 rgba(43, 43, 43, 0.3);
+}
+.book h2{
+    margin: 25px 0 8px;
+    font-size: 26px;
+    font-weight: 500;
+    color: #413960;
+}
+.book h3{
+    font-size: 16px;
+    color: #6C6B6B;
+}
+.book-img{
+    display: flex;
+    justify-content: center;
+}
+.book-img img{
+    width: 100px;
+    height: 120px;
+}
+/* books end */
+
+/* online courses start */
+#online-courses{
+    padding: 140px 0 60px;
+}
+.onc{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #413960;
+    margin-bottom: 80px;
+    
+}
+.onc-text {
+    padding: 20px 35px;
+    transition: 0.5s;
+    background-color: #fff;
+}
+.onc-text:hover{
+    box-shadow: 0 3px 5px 0 rgba(43, 43, 43, 0.3);
+}
+/* online courses images */
+
+.onc-img img{
+    width: 100%;
+}
+.onc-text h2{
+    font-size: 26px;
+    font-weight: 500;
+    color: #413960;
+    margin-top: 20px;
+}
+.onc-text h3{
+    font-size: 16px;
+    color: #6C6B6B;
+}
+.buy-course{
+    margin: 15px 0;
+    padding: 8px 28px;
+    border-radius: 33px;
+}
+.bi {
+    font-size: 24px;
+    color: #6C6B6B;
+    display: inline-block;
+}
+.bi-people{
+    padding-left: 15px;
+}
+.onc-time h2{
+    font-size: 16px;
+    color: #6C6B6B;
+    display: inline-block;
+    padding: 0 5px;
+}
+/* online courses end */
+
+/* testimonial start */
+#testimonial{
+    padding: 140px 0 60px;
+}
+#testimonial h1{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #413960;
+    padding-bottom: 70px;
+}
+.client-img {  
+    width: 150px;  
+}
+.client-review p{
+    font-size: 16px;
+    text-align: start;
+    padding: 30px 0 0 50px;
+}
+/* testimonial end */
+
+/* footer start */
+#footer {
+    background-color: #413960;
+    margin-top: 50px;
+    padding: 90px 0 60px;
+}
+.footer-text p {
+    font-size: 16px;
+    color: #fff;
+    text-align: start;
+}
+.footer-text p a{
+    font-size: 16px;
+    color: #fff;
+    text-align: start;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.footer-text p a:hover{
+    color: #acacac;
+}
+/* footer end */
+
+/* copyright start */
+footer {
+    background-color: #413960;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+footer a{
+    color: #fff;
+    transition: 0.3s;
+}
+footer a:hover{
+    color: #acacac;
+}
+/* copyright end */
